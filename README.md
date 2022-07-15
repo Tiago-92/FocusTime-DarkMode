@@ -6,3 +6,4 @@ Ao lado do timer existe 4 cards para selecionar som ambiente. É possível contr
 Pontos de melhoria para próxima att:
 - permitir que o usuário selecione quanto tempo ele quer colocar no timer. Por enquanto o timer decrementa a partir de 25 minutos.
 - quando um card for clicado, parar o som de outro card se esse estiver selecionado.
+- refazer o projeto usando React.
