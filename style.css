@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+:root .dark-mode {
+    --bg-dark-mode: #121214;
+
+    --fc-timer: #ffff;
+    
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--bg-dark-mode);
+    color: var(--fc-timer);
+    
+    display: grid;
+    min-height: 80vh;
+}
+
+header {
+    justify-self: end;
+    align-self: end;
+
+    margin-right: 3rem;
+}
+
+#buttons {
+    display: flex;
+    gap: 4rem;
+    margin-top: 1rem;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+  
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}  
+
+main {
+    display: flex;
+    align-self: end;
+    justify-self: center;
+    gap: 12rem;
+    align-items: center;
+}
+
+#timer {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11rem;
+    font-weight: 500;
+}
+
+#cards {
+    display: grid;
+    position: relative;
+    grid-template-areas: 
+    "A B"
+    "C D";
+    gap: 32px;
+}
+
+input {
+    width: 6.4rem;
+    height: 6px;
+    position: absolute;
+    margin-top: 7.4rem;
+    margin-left: 1.3rem;
+}
+
+.input-rain {
+    margin-left: 13rem;
+}
+
+.input-coffe {
+    margin-top: 19.1rem;
+}
+
+.input-fire {
+    margin-top: 19.1rem;
+    margin-left: 13rem;
+}
+
+
+
