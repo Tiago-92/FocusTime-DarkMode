@@ -3,7 +3,7 @@ Essa aplicação é um timer que decrementa a partir de 25 minutos. É possível
 A versão darkmode é padrão, porém é possivel alterar para versão light.
 Ao lado do timer existe 4 cards para selecionar som ambiente. É possível controlar o volume de cada card.
 
-Pontos de melhoria para próxima att:
+Próxímas features:
 - permitir que o usuário selecione quanto tempo ele quer colocar no timer. Por enquanto o timer decrementa a partir de 25 minutos.
 - quando um card for clicado, parar o som de outro card se esse estiver selecionado.
 - refatorar o código e aplicar React na aplicação.
